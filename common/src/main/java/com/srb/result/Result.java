@@ -40,9 +40,25 @@ public class Result<T> {
         return this;
     }
 
+    public Result ok(final Integer code, final String message, final T data) {
+        this.setSuccess(true);
+        this.setCode(code);
+        this.setMessage(message);
+        this.setData(data);
+        return this;
+    }
+
     public Result error(final String message, final T data) {
         this.setSuccess(false);
         this.setCode(ERROR);
+        this.setMessage(message);
+        this.setData(data);
+        return this;
+    }
+
+    public Result error(final Integer code, final String message, final T data) {
+        this.setSuccess(false);
+        this.setCode(code);
         this.setMessage(message);
         this.setData(data);
         return this;
