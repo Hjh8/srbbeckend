@@ -1,0 +1,207 @@
+2021-11-24 21:16:03 [INFO ] main StartupInfoLogger.java:55 com.srb.Application Starting Application using Java 1.8.0_131 on CodeKiang with PID 9428 (D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb\service-centre\target\classes started by ASUS in D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb)
+2021-11-24 21:16:03 [INFO ] main SpringApplication.java:639 com.srb.Application The following profiles are active: dev
+2021-11-24 21:16:09 [INFO ] main StartupInfoLogger.java:61 com.srb.Application Started Application in 6.56 seconds (JVM running for 8.037)
+2021-11-24 21:22:25 [INFO ] main StartupInfoLogger.java:55 com.srb.Application Starting Application using Java 1.8.0_131 on CodeKiang with PID 16360 (D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb\service-centre\target\classes started by ASUS in D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb)
+2021-11-24 21:22:25 [INFO ] main SpringApplication.java:639 com.srb.Application The following profiles are active: dev
+2021-11-24 21:22:29 [INFO ] main StartupInfoLogger.java:61 com.srb.Application Started Application in 5.45 seconds (JVM running for 6.936)
+2021-11-24 21:22:36 [ERROR] http-nio-8110-exec-1 UnifiedExceptionHandler.java:15 com.srb.exception.UnifiedExceptionHandler When allowCredentials is true, allowedOrigins cannot contain the special value "*" since that cannot be set on the "Access-Control-Allow-Origin" response header. To allow credentials to a set of origins, list them explicitly or consider using "allowedOriginPatterns" instead.
+java.lang.IllegalArgumentException: When allowCredentials is true, allowedOrigins cannot contain the special value "*" since that cannot be set on the "Access-Control-Allow-Origin" response header. To allow credentials to a set of origins, list them explicitly or consider using "allowedOriginPatterns" instead.
+	at org.springframework.web.cors.CorsConfiguration.validateAllowCredentials(CorsConfiguration.java:473)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:532)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1261)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1043)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doOptions(FrameworkServlet.java:945)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:690)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:103)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:403)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:249)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-24 21:27:06 [INFO ] main StartupInfoLogger.java:55 com.srb.Application Starting Application using Java 1.8.0_131 on CodeKiang with PID 16416 (D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb\service-centre\target\classes started by ASUS in D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb)
+2021-11-24 21:27:06 [INFO ] main SpringApplication.java:639 com.srb.Application The following profiles are active: dev
+2021-11-24 21:27:10 [INFO ] main StartupInfoLogger.java:61 com.srb.Application Started Application in 4.362 seconds (JVM running for 5.429)
+2021-11-24 21:27:20 [ERROR] http-nio-8110-exec-1 UnifiedExceptionHandler.java:15 com.srb.exception.UnifiedExceptionHandler When allowCredentials is true, allowedOrigins cannot contain the special value "*" since that cannot be set on the "Access-Control-Allow-Origin" response header. To allow credentials to a set of origins, list them explicitly or consider using "allowedOriginPatterns" instead.
+java.lang.IllegalArgumentException: When allowCredentials is true, allowedOrigins cannot contain the special value "*" since that cannot be set on the "Access-Control-Allow-Origin" response header. To allow credentials to a set of origins, list them explicitly or consider using "allowedOriginPatterns" instead.
+	at org.springframework.web.cors.CorsConfiguration.validateAllowCredentials(CorsConfiguration.java:473)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:532)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1261)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1043)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doOptions(FrameworkServlet.java:945)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:690)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:103)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:403)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:249)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-24 21:30:07 [INFO ] main StartupInfoLogger.java:55 com.srb.Application Starting Application using Java 1.8.0_131 on CodeKiang with PID 16528 (D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb\service-centre\target\classes started by ASUS in D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb)
+2021-11-24 21:30:07 [INFO ] main SpringApplication.java:639 com.srb.Application The following profiles are active: dev
+2021-11-24 21:30:11 [INFO ] main StartupInfoLogger.java:61 com.srb.Application Started Application in 4.406 seconds (JVM running for 5.418)
+2021-11-24 21:30:25 [ERROR] http-nio-8110-exec-1 UnifiedExceptionHandler.java:15 com.srb.exception.UnifiedExceptionHandler When allowCredentials is true, allowedOrigins cannot contain the special value "*" since that cannot be set on the "Access-Control-Allow-Origin" response header. To allow credentials to a set of origins, list them explicitly or consider using "allowedOriginPatterns" instead.
+java.lang.IllegalArgumentException: When allowCredentials is true, allowedOrigins cannot contain the special value "*" since that cannot be set on the "Access-Control-Allow-Origin" response header. To allow credentials to a set of origins, list them explicitly or consider using "allowedOriginPatterns" instead.
+	at org.springframework.web.cors.CorsConfiguration.validateAllowCredentials(CorsConfiguration.java:473)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:532)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1261)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1043)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doOptions(FrameworkServlet.java:945)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:690)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:103)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:403)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:249)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-24 21:32:04 [INFO ] main StartupInfoLogger.java:55 com.srb.Application Starting Application using Java 1.8.0_131 on CodeKiang with PID 13776 (D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb\service-centre\target\classes started by ASUS in D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb)
+2021-11-24 21:32:04 [INFO ] main SpringApplication.java:639 com.srb.Application The following profiles are active: dev
+2021-11-24 21:32:08 [INFO ] main StartupInfoLogger.java:61 com.srb.Application Started Application in 4.6 seconds (JVM running for 5.613)
+2021-11-24 21:32:57 [ERROR] http-nio-8110-exec-1 UnifiedExceptionHandler.java:15 com.srb.exception.UnifiedExceptionHandler When allowCredentials is true, allowedOrigins cannot contain the special value "*" since that cannot be set on the "Access-Control-Allow-Origin" response header. To allow credentials to a set of origins, list them explicitly or consider using "allowedOriginPatterns" instead.
+java.lang.IllegalArgumentException: When allowCredentials is true, allowedOrigins cannot contain the special value "*" since that cannot be set on the "Access-Control-Allow-Origin" response header. To allow credentials to a set of origins, list them explicitly or consider using "allowedOriginPatterns" instead.
+	at org.springframework.web.cors.CorsConfiguration.validateAllowCredentials(CorsConfiguration.java:473)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:532)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1261)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1043)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doOptions(FrameworkServlet.java:945)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:690)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:103)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:403)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:249)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-11-24 21:34:01 [INFO ] main StartupInfoLogger.java:55 com.srb.Application Starting Application using Java 1.8.0_131 on CodeKiang with PID 16896 (D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb\service-centre\target\classes started by ASUS in D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb)
+2021-11-24 21:34:01 [INFO ] main SpringApplication.java:639 com.srb.Application The following profiles are active: dev
+2021-11-24 21:34:06 [INFO ] main StartupInfoLogger.java:61 com.srb.Application Started Application in 4.879 seconds (JVM running for 6.989)
+2021-11-24 21:37:18 [INFO ] main StartupInfoLogger.java:55 com.srb.Application Starting Application using Java 1.8.0_131 on CodeKiang with PID 13916 (D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb\service-centre\target\classes started by ASUS in D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb)
+2021-11-24 21:37:18 [INFO ] main SpringApplication.java:639 com.srb.Application The following profiles are active: dev
+2021-11-24 21:37:22 [INFO ] main StartupInfoLogger.java:61 com.srb.Application Started Application in 3.93 seconds (JVM running for 4.9)
+2021-11-24 21:39:18 [INFO ] main StartupInfoLogger.java:55 com.srb.Application Starting Application using Java 1.8.0_131 on CodeKiang with PID 8352 (D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb\service-centre\target\classes started by ASUS in D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb)
+2021-11-24 21:39:18 [INFO ] main SpringApplication.java:639 com.srb.Application The following profiles are active: dev
+2021-11-24 21:39:22 [INFO ] main StartupInfoLogger.java:61 com.srb.Application Started Application in 4.784 seconds (JVM running for 5.911)
+2021-11-24 21:40:02 [INFO ] main StartupInfoLogger.java:55 com.srb.Application Starting Application using Java 1.8.0_131 on CodeKiang with PID 14008 (D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb\service-centre\target\classes started by ASUS in D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb)
+2021-11-24 21:40:02 [INFO ] main SpringApplication.java:639 com.srb.Application The following profiles are active: dev
+2021-11-24 21:40:05 [INFO ] main StartupInfoLogger.java:61 com.srb.Application Started Application in 4.544 seconds (JVM running for 5.468)
+2021-11-24 21:40:27 [INFO ] main StartupInfoLogger.java:55 com.srb.Application Starting Application using Java 1.8.0_131 on CodeKiang with PID 4648 (D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb\service-centre\target\classes started by ASUS in D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb)
+2021-11-24 21:40:27 [INFO ] main SpringApplication.java:639 com.srb.Application The following profiles are active: dev
+2021-11-24 21:40:30 [INFO ] main StartupInfoLogger.java:61 com.srb.Application Started Application in 4.3 seconds (JVM running for 5.254)
+2021-11-24 21:41:03 [INFO ] main StartupInfoLogger.java:55 com.srb.Application Starting Application using Java 1.8.0_131 on CodeKiang with PID 8236 (D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb\service-centre\target\classes started by ASUS in D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb)
+2021-11-24 21:41:03 [INFO ] main SpringApplication.java:639 com.srb.Application The following profiles are active: dev
+2021-11-24 21:41:06 [INFO ] main StartupInfoLogger.java:61 com.srb.Application Started Application in 4.624 seconds (JVM running for 5.664)
+2021-11-24 21:53:05 [INFO ] main StartupInfoLogger.java:55 com.srb.Application Starting Application using Java 1.8.0_131 on CodeKiang with PID 16820 (D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb\service-centre\target\classes started by ASUS in D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb)
+2021-11-24 21:53:05 [INFO ] main SpringApplication.java:639 com.srb.Application The following profiles are active: dev
+2021-11-24 21:53:08 [INFO ] main StartupInfoLogger.java:61 com.srb.Application Started Application in 4.153 seconds (JVM running for 5.262)
+2021-11-24 21:53:18 [INFO ] http-nio-8110-exec-2 AdminIntegralGradeController.java:40 com.srb.controller.admin.AdminIntegralGradeController this is info
+2021-11-24 21:53:18 [WARN ] http-nio-8110-exec-2 AdminIntegralGradeController.java:41 com.srb.controller.admin.AdminIntegralGradeController this is warn
+2021-11-24 21:53:18 [ERROR] http-nio-8110-exec-2 AdminIntegralGradeController.java:42 com.srb.controller.admin.AdminIntegralGradeController this is error
+2021-11-24 21:53:48 [INFO ] http-nio-8110-exec-3 AdminIntegralGradeController.java:40 com.srb.controller.admin.AdminIntegralGradeController this is info
+2021-11-24 21:53:48 [WARN ] http-nio-8110-exec-3 AdminIntegralGradeController.java:41 com.srb.controller.admin.AdminIntegralGradeController this is warn
+2021-11-24 21:53:48 [ERROR] http-nio-8110-exec-3 AdminIntegralGradeController.java:42 com.srb.controller.admin.AdminIntegralGradeController this is error
+2021-11-24 21:54:43 [INFO ] http-nio-8110-exec-4 AdminIntegralGradeController.java:40 com.srb.controller.admin.AdminIntegralGradeController this is info
+2021-11-24 21:54:43 [WARN ] http-nio-8110-exec-4 AdminIntegralGradeController.java:41 com.srb.controller.admin.AdminIntegralGradeController this is warn
+2021-11-24 21:54:43 [ERROR] http-nio-8110-exec-4 AdminIntegralGradeController.java:42 com.srb.controller.admin.AdminIntegralGradeController this is error
+2021-11-24 21:55:02 [INFO ] http-nio-8110-exec-5 AdminIntegralGradeController.java:40 com.srb.controller.admin.AdminIntegralGradeController this is info
+2021-11-24 21:55:02 [WARN ] http-nio-8110-exec-5 AdminIntegralGradeController.java:41 com.srb.controller.admin.AdminIntegralGradeController this is warn
+2021-11-24 21:55:02 [ERROR] http-nio-8110-exec-5 AdminIntegralGradeController.java:42 com.srb.controller.admin.AdminIntegralGradeController this is error
+2021-11-24 21:55:03 [INFO ] http-nio-8110-exec-6 AdminIntegralGradeController.java:40 com.srb.controller.admin.AdminIntegralGradeController this is info
+2021-11-24 21:55:03 [WARN ] http-nio-8110-exec-6 AdminIntegralGradeController.java:41 com.srb.controller.admin.AdminIntegralGradeController this is warn
+2021-11-24 21:55:03 [ERROR] http-nio-8110-exec-6 AdminIntegralGradeController.java:42 com.srb.controller.admin.AdminIntegralGradeController this is error
+2021-11-24 21:55:16 [INFO ] http-nio-8110-exec-7 AdminIntegralGradeController.java:40 com.srb.controller.admin.AdminIntegralGradeController this is info
+2021-11-24 21:55:16 [WARN ] http-nio-8110-exec-7 AdminIntegralGradeController.java:41 com.srb.controller.admin.AdminIntegralGradeController this is warn
+2021-11-24 21:55:16 [ERROR] http-nio-8110-exec-7 AdminIntegralGradeController.java:42 com.srb.controller.admin.AdminIntegralGradeController this is error
+2021-11-24 21:55:17 [INFO ] http-nio-8110-exec-8 AdminIntegralGradeController.java:40 com.srb.controller.admin.AdminIntegralGradeController this is info
+2021-11-24 21:55:17 [WARN ] http-nio-8110-exec-8 AdminIntegralGradeController.java:41 com.srb.controller.admin.AdminIntegralGradeController this is warn
+2021-11-24 21:55:17 [ERROR] http-nio-8110-exec-8 AdminIntegralGradeController.java:42 com.srb.controller.admin.AdminIntegralGradeController this is error
+2021-11-24 21:56:37 [INFO ] http-nio-8110-exec-9 AdminIntegralGradeController.java:40 com.srb.controller.admin.AdminIntegralGradeController this is info
+2021-11-24 21:56:37 [WARN ] http-nio-8110-exec-9 AdminIntegralGradeController.java:41 com.srb.controller.admin.AdminIntegralGradeController this is warn
+2021-11-24 21:56:37 [ERROR] http-nio-8110-exec-9 AdminIntegralGradeController.java:42 com.srb.controller.admin.AdminIntegralGradeController this is error
+2021-11-24 21:56:56 [INFO ] main StartupInfoLogger.java:55 com.srb.Application Starting Application using Java 1.8.0_131 on CodeKiang with PID 3528 (D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb\service-centre\target\classes started by ASUS in D:\jetbrains\IntelliJ IDEA 2019.3.3\projects\srb)
+2021-11-24 21:56:56 [INFO ] main SpringApplication.java:639 com.srb.Application The following profiles are active: dev
+2021-11-24 21:56:59 [INFO ] main StartupInfoLogger.java:61 com.srb.Application Started Application in 4.199 seconds (JVM running for 5.189)
