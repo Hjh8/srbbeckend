@@ -35,11 +35,6 @@ public class AdminIntegralGradeController {
     @ApiOperation(value = "获取积分列表", notes = "获取积分列表")
     @GetMapping("/list")
     public Result<List<IntegralGrade>> listAll(){
-//        Assert.notNull(null, "数据为空");
-        /* return new Result<>(true, 200, "操作成功", service.list()); */
-//        log.info("this is info");
-//        log.warn("this is warn");
-//        log.error("this is error");
         return new Result().ok("获取积分列表成功", service.list());
     }
 
@@ -69,6 +64,7 @@ public class AdminIntegralGradeController {
     public Result<Boolean> query(@PathVariable Integer id){
         IntegralGrade integralGrade = service.getById(id);
         if(integralGrade != null){
+            // 查询积分成功
             return new Result().ok("根据id查询积分等级成功", integralGrade);
         }
         else {
